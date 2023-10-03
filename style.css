@@ -1,0 +1,102 @@
+.mainRow{
+flex-direction: row;
+display: flex;
+
+
+}
+.firstCol{
+    flex-direction: column;
+    display: flex;
+    align-items:flex-start;
+    padding-left: 129px;
+    
+    
+    
+    
+
+
+
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+    
+}
+.typ{
+    margin-top: -20px;
+}
+.types{
+    font-weight: 700;
+    font-size: 24px;
+}
+.pokeType{
+    
+    justify-content: center;
+    background-color: #E8E8E8;
+    text-align: center;
+    width: 406px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+    
+
+
+
+
+}
+
+.types1{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+    
+
+    
+    
+}
+.types1 li{
+    margin-right: 10px;
+    margin-top: -20px;
+}
+.pokepic{
+    height: 400px;
+    width: 400px;
+    
+    top: 165px;
+    left: 129px;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+
+}
+.arrow-container{
+    margin-left: 150px;
+    margin-top: 50px;
+    
+    
+    
+}
+.arrow-button{
+    background-color: #E8E8E8;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 69px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;s
+    
+}
+.arrow-button-left{
+    margin-right: 43px;
+
+}
