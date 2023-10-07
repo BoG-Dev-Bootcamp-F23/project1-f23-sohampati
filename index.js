@@ -187,6 +187,7 @@ rightarrow.addEventListener("click", () => {
             var newItem = document.createElement('li');
             newItem.textContent = data.types[f].type.name;
             console.log(newItem.textContent);
+            newItem.style.backgroundColor = text_to_hex[data.types[f].type.name]
             types.appendChild(newItem);
             
           
@@ -281,6 +282,8 @@ rightarrow.addEventListener("click", () => {
           for(let f = 0; f < s; f++){
             var newItem = document.createElement('li');
             newItem.textContent = data.types[f].type.name;
+            newItem.style.backgroundColor = text_to_hex[data.types[f].type.name]
+            types.appendChild(newItem);
             
             console.log(newItem.textContent);
             types.appendChild(newItem);

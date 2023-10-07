@@ -25,6 +25,7 @@ display: flex;
     
     
 }
+
 .typ{
     margin-top: -20px;
 }
@@ -87,7 +88,7 @@ display: flex;
 }
 .arrow-container{
     margin-left: 25px;
-    margin-top: 610px;
+    margin-top: 660px;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -96,6 +97,7 @@ display: flex;
     
     
 }
+
 .arrow-button{
     background-color: #E8E8E8;
     color: black;
@@ -128,17 +130,17 @@ display: flex;
 }
 .stats{
     list-style-type: none;
-    margin-left: 25px;
+    margin-left: 100px;
     background-color: #E8E8E8;
-    padding-topadads: 32px;
+    padding-top: 32px;
     padding-bottomdada: 95px;
     font-family: sans-serif;
     font-size: 36px;
     font-weight: 400;
     overflow: auto;
     padding-leftadfa: 32px;
-    width: 700px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
 }
 .statspanel{
     padding-right: 30px;
@@ -157,13 +159,16 @@ display: flex;
     display: flex;
     flex-direction: row;
     
-    justify-content: space-evenly;
-    margin-left: -200px;
+    
+    margin-left: 180px; 
     margin-top: 60px;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     
 
+}
+.firstbutton{
+    margin-right: 40px;
 }
 .inf{
     background-color: #7CFF79;
@@ -176,7 +181,7 @@ display: flex;
     
 }
 .info{
-    margin-left: 100px;
+    margin-left: 320px;
 }
 
 .moves{
