@@ -38,7 +38,7 @@ let text_to_hex = {
   fairy: '#D685AD'
 }
 
-let current = 132;
+let current = 25;
 let infoMode = true;
 
 
@@ -213,7 +213,7 @@ rightarrow.addEventListener("click", () => {
             stats.innerHTML += "<br />"
             stats.innerHTML += "special-defense: " + data.stats[4].base_stat;
             stats.innerHTML += "<br />"
-            "speed: " + data.stats[5].base_stat;
+            stats.innerHTML += "speed: " + data.stats[5].base_stat;
           }else{
             stats.innerHTML = '';
             let y =0;
@@ -311,7 +311,7 @@ rightarrow.addEventListener("click", () => {
             stats.innerHTML += "<br />"
             stats.innerHTML += "special-defense: " + data.stats[4].base_stat;
             stats.innerHTML += "<br />"
-            "speed: " + data.stats[5].base_stat;
+            stats.innerHTML += "speed: " + data.stats[5].base_stat;
 
           }else{
             stats.innerHTML = '';
