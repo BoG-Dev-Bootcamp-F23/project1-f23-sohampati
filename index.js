@@ -16,6 +16,7 @@ const defense = document.getElementsByClassName('defense')[0];
 const special_att = document.getElementsByClassName('special-attack')[0];
 const special_def = document.getElementsByClassName('special-defense')[0];
 const speed = document.getElementsByClassName('speed')[0];
+const types = document.getElementsByClassName('types1')[0];
 
 let current = 132;
 let infoMode = true;
@@ -153,11 +154,25 @@ rightarrow.addEventListener("click", () => {
       })
       .then((data) => {
         const spriteUrl = data.sprites?.front_default;
-  
+        let s = data.types.length;
+        console.log(s);
+        
+        
         if (spriteUrl) {
           img.src = spriteUrl;
           img.alt = pokemonName;
           pokemon_name.textContent = data.name;
+          types.innerHTML = '';
+          for(let f = 0; f < s; f++){
+            var newItem = document.createElement('li');
+            newItem.textContent = data.types[f].type.name;
+            console.log(newItem.textContent);
+            types.appendChild(newItem);
+            
+          
+          }
+          
+          
           if(infoMode === true){
             stats.innerHTML = '';
             data.height /= 10
@@ -238,8 +253,19 @@ rightarrow.addEventListener("click", () => {
       })
       .then((data) => {
         const spriteUrl = data.sprites?.front_default;
+        
   
         if (spriteUrl) {
+          let s = data.types.length;
+          types.innerHTML = '';
+          for(let f = 0; f < s; f++){
+            var newItem = document.createElement('li');
+            newItem.textContent = data.types[f].type.name;
+            console.log(newItem.textContent);
+            types.appendChild(newItem);
+            
+          
+          }
           img.src = spriteUrl;
           img.alt = pokemonName;
           pokemon_name.textContent = data.name;
