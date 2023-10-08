@@ -38,7 +38,7 @@ let text_to_hex = {
   fairy: '#D685AD'
 }
 
-let current = 25;
+let current = 307;
 let infoMode = true;
 
 
@@ -188,6 +188,7 @@ rightarrow.addEventListener("click", () => {
             newItem.textContent = data.types[f].type.name;
             console.log(newItem.textContent);
             newItem.style.backgroundColor = text_to_hex[data.types[f].type.name]
+            
             types.appendChild(newItem);
             
           

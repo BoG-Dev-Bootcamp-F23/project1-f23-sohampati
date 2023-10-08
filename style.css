@@ -34,6 +34,12 @@ display: flex;
     font-size: 24px;
     font-family: sans-serif;
 }
+.types1{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
 .pokeType{
     
     justify-content: center;
